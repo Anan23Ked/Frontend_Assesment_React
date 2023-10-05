@@ -1,0 +1,97 @@
+
+.form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  
+  
+}
+.box{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  background-color: #8895f6;
+  padding: 2rem;
+  padding-top: 0;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+h2{
+  color: #243dfd;
+  text-align: center;
+  align-items: center;
+  padding: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 30px; 
+  font-weight: 40px; 
+
+}
+
+
+  #username ,#password{
+  height: 5px;
+  border: 1px solid rgb(135, 133, 141);
+  padding : 20px;
+  margin: 10px;
+  align-items: center;
+  width: 250px;
+  background-color: #e4e7f1;
+  border-radius: 5px;
+  
+
+}
+
+ ::placeholder{
+  color: #6a86c7;
+  font: 1.5em Roboto;
+  margin-top: 20px;
+  padding-bottom: 1px;
+
+ }
+
+input[type="submit"] {
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  background: #0140d2;
+  border: 1px solid #002e7e;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  width: 250px;
+}
+
+input[type="submit"]:hover {
+  background: #4a45d6;
+ 
+}
+.link{
+  font-size: 15px;
+  font-weight: 400;
+}
+a{
+   color: blue;
+}
+input{
+  width: 300px;
+  height: 50px;
+  border-radius: 60px;
+  box-shadow: inset 0px 0px 5px 0px #3a63e8;
+  border: none;
+  outline: none; 
+
+}
+
+.error {
+  color: rgb(45, 44, 44);
+  font-size: 22px;
+  background-color: rgb(255, 0, 13, 0.3);
+  border-radius: 5px;
+}
